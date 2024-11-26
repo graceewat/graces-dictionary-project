@@ -15,14 +15,6 @@ export default function Results(props) {
             </div>
           );
         })}
-        <h3>Definition</h3>
-        <h4>{props.results.meanings[0].definition}</h4>
-        <h3>Example</h3>
-        <h4>{props.results.meanings[0].example}</h4>
-        <h3>Synonyms</h3>
-        <h4>{props.results.meanings[0].synonyms}</h4>
-        <h4>{props.results.meanings[1].synonyms}</h4>
-        <h4>{props.results.meanings[2].synonyms}</h4>
       </div>
     );
   } else {
